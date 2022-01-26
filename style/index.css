@@ -3,6 +3,7 @@ header {
     padding-top: 3px;
     padding-left: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 header p {
@@ -22,3 +23,22 @@ header nav {
     flex-direction: row;
     font-size: 2rem;
 }
+
+.huge-photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.huge-photo img {
+height: 30rem;
+width: 50rem;
+}
+
+.website-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 3rem;
+}
+
