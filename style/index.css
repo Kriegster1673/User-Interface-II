@@ -1,1 +1,21 @@
-/* Add CSS styling here */
+header {
+    background-color: pink;
+}
+
+header p {
+    font-size: 3rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+#about, #contact, #projects{
+    border: solid black 1px;
+    padding: 10px 20px;
+    background-color: white;
+    flex-direction: row;
+    font-size: 2rem;
+}
