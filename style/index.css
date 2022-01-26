@@ -1,5 +1,8 @@
 header {
     background-color: pink;
+    padding-top: 3px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 header p {
@@ -12,7 +15,7 @@ header nav {
     margin-left: 1rem;
 }
 
-#about, #contact, #projects{
+#home, #about, #contact, #projects{
     border: solid black 1px;
     padding: 10px 20px;
     background-color: white;
