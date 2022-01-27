@@ -127,3 +127,10 @@ header a {
     justify-content: center;
     margin-bottom: 2rem;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    padding: 3%;
+}
