@@ -88,6 +88,21 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
+    padding-bottom: 5%;
+}
+
+header h2 {
+    padding-top: 10rem;
+}
+
+header p {
+    padding: 3%;
+}
+
+header a {
+    border: solid 2px black;
+    width: 25%;
+    margin-left: 37%;
 }
 
 .bio-photo {
@@ -104,9 +119,11 @@ header {
 .bio-words {
     display: flex;
     flex-direction: column;
+    margin-left: 5rem;
 }
 
 .bio-down {
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
