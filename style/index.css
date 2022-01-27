@@ -47,8 +47,15 @@ width: 50rem;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 2rem;
+    margin: 0px;
 }
 
-.under {
+footer {
     display: flex;
+    background-color: pink;
+    padding: 3rem;
+    flex-direction: column;
+    font-size: 3rem;
+    padding-left: 50rem;
+    
 }
