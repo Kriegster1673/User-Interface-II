@@ -96,6 +96,11 @@ header {
     justify-content: flex-start;
 }
 
+.photo-bio {
+    height: auto;
+    width: 90vh;
+}
+
 .bio-words {
     display: flex;
     flex-direction: column;
@@ -103,5 +108,5 @@ header {
 
 .bio-down {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
